@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 160" width="600" height="160">
+  <defs>
+    <radialGradient id="wm" cx="0.5" cy="0.5">
+      <stop offset="0%" stop-color="#1a3a5a"/>
+      <stop offset="100%" stop-color="#0a1a2a"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="160" fill="url(#wm)"/>
+  <!-- World map dots -->
+  <g fill="#2a4a6a" opacity="0.5">
+    <circle cx="100" cy="50" r="2"/><circle cx="120" cy="45" r="2"/><circle cx="140" cy="55" r="2"/>
+    <circle cx="160" cy="50" r="2"/><circle cx="180" cy="60" r="2"/><circle cx="200" cy="55" r="2"/>
+    <circle cx="220" cy="65" r="2"/><circle cx="240" cy="60" r="2"/><circle cx="260" cy="70" r="2"/>
+    <circle cx="280" cy="65" r="2"/><circle cx="300" cy="75" r="2"/><circle cx="320" cy="70" r="2"/>
+    <circle cx="340" cy="80" r="2"/><circle cx="360" cy="75" r="2"/><circle cx="380" cy="85" r="2"/>
+    <circle cx="400" cy="80" r="2"/><circle cx="420" cy="90" r="2"/><circle cx="440" cy="85" r="2"/>
+    <circle cx="460" cy="95" r="2"/><circle cx="480" cy="90" r="2"/><circle cx="500" cy="100" r="2"/>
+  </g>
+</svg>

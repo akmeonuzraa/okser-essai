@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+  <rect width="600" height="320" fill="#3a3a3a"/>
+  <!-- Agent from behind -->
+  <g transform="translate(220,30)">
+    <rect x="40" y="0" width="80" height="120" rx="4" fill="#1a1a1a"/>
+    <circle cx="80" cy="20" r="18" fill="#222"/>
+    <!-- SECURITY on back -->
+    <rect x="50" y="55" width="60" height="18" fill="#A0000C"/>
+    <text x="80" y="68" font-family="Roboto, Arial" font-size="10" fill="#fff" font-weight="700" text-anchor="middle">SECURITY</text>
+  </g>
+</svg>

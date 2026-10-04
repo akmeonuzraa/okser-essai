@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/logo-okser.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OKSER Maroc - Contact</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div id="header-slot"></div>
+
+    <div class="page-banner" style="background-image: url('/images/contact-banner.svg'); background-size: cover; background-position: center; background-blend-mode: overlay;">
+      <div>
+        <h1>Contact</h1>
+        <div class="subtitle">Notre Agence est ouverte du lundi au Samedi de 8h00 12h30 et de 14h30 à18h00</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div style="display: flex; gap: 20px; padding: 25px 0 40px; align-items: flex-start;">
+        <div style="flex: 1;">
+          <h2 class="form-title-main">Contact</h2>
+          <div style="color: var(--red); font-size: 16px; font-weight: 700; margin-bottom: 15px;">OKser OKSER MAROC</div>
+
+          <div class="contact-info-line">
+            <span class="ci-icon">&#128205;</span>
+            <div class="ci-text"><strong>Addresse :</strong> 5, Imm LAHRACH, Bd Mohamed VI, AIT MELLOUL, Agadir, Maroc</div>
+          </div>
+          <div class="contact-info-line">
+            <span class="ci-icon">&#9742;</span>
+            <div class="ci-text"><strong>Tél / Fax :</strong> (+212)528-837555</div>
+          </div>
+          <div class="contact-info-line">
+            <span class="ci-icon">&#128241;</span>
+            <div class="ci-text"><strong>Gsm :</strong> (+212)662-086277</div>
+          </div>
+          <div class="contact-info-line">
+            <span class="ci-icon">&#9993;</span>
+            <div class="ci-text"><strong>Email :</strong> abdelkabir.amoura@okser-maroc.com</div>
+          </div>
+
+          <div class="map-placeholder">
+            <div class="map-inner">
+              <div class="pin">&#128205;</div>
+              <div>AIT MELLOUL, Agadir, Maroc</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="width: 340px; flex-shrink: 0;">
+          <div class="contact-right-block">
+            <h3>Laissez nous un message</h3>
+            <div class="phone">&#9742; (+212)528-837555</div>
+          </div>
+          <div class="contact-or"><span>OU</span></div>
+          <div class="contact-form-block">
+            <div class="form-group">
+              <label>Nom / Raison Sociale <span class="req">*</span></label>
+              <input type="text" placeholder="Nom / Raison Sociale" />
+            </div>
+            <div class="form-group">
+              <label>Address E-mail <span class="req">*</span></label>
+              <input type="email" placeholder="E-mail" />
+            </div>
+            <div class="form-group">
+              <label>Ville <span class="req">*</span></label>
+              <input type="text" placeholder="Ville" />
+            </div>
+            <div class="form-group">
+              <label>Tél <span class="req">*</span></label>
+              <input type="tel" placeholder="Tél" />
+            </div>
+            <div class="form-group">
+              <label>Votre Message <span class="req">*</span></label>
+              <textarea placeholder="Votre message"></textarea>
+            </div>
+            <div class="captcha-box">
+              <div class="captcha-img" id="captcha-text-contact">X3M7Q</div>
+              <button type="button" class="captcha-refresh" onclick="document.getElementById('captcha-text-contact').textContent = Math.random().toString(36).substring(2, 7).toUpperCase();">&#8635;</button>
+            </div>
+            <div class="form-group">
+              <label>êtes-vous un être humain ? <span class="req">*</span></label>
+              <input type="text" placeholder="Recopiez le code" />
+            </div>
+            <button class="btn-rouge">Envoyer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer-slot"></div>
+    <script type="module" src="/js/pages/contact.js"></script>
+  </body>
+</html>

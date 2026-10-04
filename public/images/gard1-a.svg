@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+  <rect width="600" height="320" fill="#4a5a6a"/>
+  <!-- Agent at striped barrier -->
+  <g transform="translate(200,40)">
+    <!-- Agent -->
+    <circle cx="100" cy="30" r="20" fill="#333"/>
+    <rect x="80" y="52" width="40" height="70" rx="4" fill="#2a2a2a"/>
+    <rect x="70" y="75" width="60" height="16" fill="#A0000C"/>
+    <text x="100" y="87" font-family="Roboto, Arial" font-size="9" fill="#fff" font-weight="700" text-anchor="middle">SECURITY</text>
+    <!-- Barrier -->
+    <rect x="0" y="130" width="200" height="20" fill="#ddd"/>
+    <rect x="0" y="130" width="25" height="20" fill="#A0000C"/>
+    <rect x="50" y="130" width="25" height="20" fill="#A0000C"/>
+    <rect x="100" y="130" width="25" height="20" fill="#A0000C"/>
+    <rect x="150" y="130" width="25" height="20" fill="#A0000C"/>
+  </g>
+  <!-- Background fence -->
+  <g opacity="0.2">
+    <rect x="0" y="0" width="600" height="320" fill="#3a4a5a"/>
+  </g>
+</svg>

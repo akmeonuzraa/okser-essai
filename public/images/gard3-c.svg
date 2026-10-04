@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+  <rect width="600" height="320" fill="#3a4a5a"/>
+  <!-- Office cleaning / disinfection -->
+  <g transform="translate(150,60)">
+    <!-- Desk -->
+    <rect x="0" y="120" width="200" height="10" fill="#5a6a7a"/>
+    <rect x="10" y="130" width="8" height="60" fill="#4a5a6a"/>
+    <rect x="182" y="130" width="8" height="60" fill="#4a5a6a"/>
+    <!-- Spray bottle -->
+    <rect x="80" y="70" width="20" height="45" rx="3" fill="#3a8a5a"/>
+    <rect x="85" y="62" width="10" height="12" fill="#2a6a4a"/>
+    <!-- Spray particles -->
+    <circle cx="110" cy="70" r="2" fill="#8accaa" opacity="0.5"/>
+    <circle cx="120" cy="65" r="1.5" fill="#8accaa" opacity="0.4"/>
+    <circle cx="115" cy="78" r="1.5" fill="#8accaa" opacity="0.3"/>
+  </g>
+</svg>

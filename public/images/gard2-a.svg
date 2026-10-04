@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+  <rect width="600" height="320" fill="#5a6a7a"/>
+  <!-- Woman in suit with folder -->
+  <g transform="translate(200,30)">
+    <circle cx="100" cy="30" r="22" fill="#d4a878"/>
+    <path d="M75 55 L125 55 L130 120 L70 120 Z" fill="#3a4a6a"/>
+    <rect x="85" y="70" width="30" height="35" rx="2" fill="#d4a878"/>
+    <!-- Folder -->
+    <rect x="60" y="85" width="25" height="30" rx="2" fill="#e8e8e8"/>
+  </g>
+</svg>

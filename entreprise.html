@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/logo-okser.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OKSER Maroc - Espace Entreprise</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div id="header-slot"></div>
+
+    <div class="page-banner-dark" style="background-image: url('/images/entreprise-banner.svg'); background-size: cover; background-position: center;">
+      <div>
+        <h1>Espace Entreprise</h1>
+        <div class="subtitle">Vous êtes une <b>Entreprise</b>, une <b>collectivité</b> , un <b>organisme publique</b> ...?</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="layout-3col">
+        <div class="col-center">
+          <h2 class="form-title-main">Formulaire Entreprise</h2>
+          <p class="form-intro">Remplissez ce formulaire pour nous contacter</p>
+
+          <div class="form-section">
+            <div class="form-group">
+              <label>Sujet</label>
+              <select>
+                <option value="">-- Sélectionner --</option>
+                <option value="gardiennage">Gardiennage et Surveillance</option>
+                <option value="recrutement">Recrutement et mise à disposition</option>
+                <option value="externalisation">Externalisation des taches et services</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+            <div class="form-row-2">
+              <div class="form-group">
+                <label>Nom &amp; Prénom <span class="req">*</span></label>
+                <input type="text" placeholder="Nom & Prénom" />
+              </div>
+              <div class="form-group">
+                <label>Société <span class="req">*</span></label>
+                <input type="text" placeholder="Société" />
+              </div>
+            </div>
+            <div class="form-row-2">
+              <div class="form-group">
+                <label>E-mail <span class="req">*</span></label>
+                <input type="email" placeholder="E-mail" />
+              </div>
+              <div class="form-group">
+                <label>Tél <span class="req">*</span></label>
+                <input type="tel" placeholder="Tél" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Adresse <span class="req">*</span></label>
+              <textarea placeholder="Adresse"></textarea>
+            </div>
+            <div class="form-group">
+              <label>Message <span class="req">*</span></label>
+              <textarea placeholder="Votre message" style="min-height: 120px;"></textarea>
+            </div>
+
+            <!-- Captcha -->
+            <div class="captcha-box">
+              <div class="captcha-img" id="captcha-text">AB7K9</div>
+              <button type="button" class="captcha-refresh" onclick="document.getElementById('captcha-text').textContent = Math.random().toString(36).substring(2, 7).toUpperCase();">&#8635;</button>
+            </div>
+            <div class="form-group">
+              <label>Vous êtes un être Humain <span class="req">*</span></label>
+              <input type="text" placeholder="Recopiez le code" />
+            </div>
+
+            <button class="btn-rouge">Envoyer</button>
+          </div>
+        </div>
+
+        <div id="right-sidebar"></div>
+      </div>
+    </div>
+
+    <div id="footer-slot"></div>
+    <script type="module" src="/js/pages/entreprise.js"></script>
+  </body>
+</html>

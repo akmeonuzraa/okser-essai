@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280">
+  <rect width="600" height="280" fill="#0a0a0a"/>
+  <!-- Hands + network -->
+  <g transform="translate(380,140)" opacity="0.4">
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#333" stroke-width="2"/>
+    <circle cx="-50" cy="-30" r="20" fill="none" stroke="#333" stroke-width="2"/>
+    <circle cx="50" cy="-30" r="20" fill="none" stroke="#333" stroke-width="2"/>
+    <circle cx="-50" cy="40" r="20" fill="none" stroke="#333" stroke-width="2"/>
+    <circle cx="50" cy="40" r="20" fill="none" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="0" x2="-50" y2="-30" stroke="#333" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="50" y2="-30" stroke="#333" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="-50" y2="40" stroke="#333" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="50" y2="40" stroke="#333" stroke-width="1.5"/>
+    <!-- Hands -->
+    <path d="M-30,50 Q-10,40 0,50 Q10,40 30,50" fill="none" stroke="#555" stroke-width="2"/>
+  </g>
+  <!-- Red bar top left -->
+  <rect x="20" y="30" width="280" height="30" fill="#A0000C"/>
+  <text x="30" y="50" font-family="Roboto, Arial" font-size="13" fill="#fff" font-weight="500">Recrutement et mise à disposition du personnel</text>
+  <!-- Checklist items -->
+  <g font-family="Roboto, Arial" font-size="14" fill="#fff">
+    <rect x="20" y="75" width="14" height="14" fill="#A0000C"/>
+    <text x="42" y="87">Recrutement</text>
+    <rect x="20" y="105" width="14" height="14" fill="#A0000C"/>
+    <text x="42" y="117">Mission Temporaire</text>
+    <rect x="20" y="135" width="14" height="14" fill="#A0000C"/>
+    <text x="42" y="147">Gestion de Contrat</text>
+  </g>
+</svg>
