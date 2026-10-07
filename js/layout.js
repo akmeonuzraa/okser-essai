@@ -25,11 +25,11 @@ export function buildHeader(activePage) {
   <header class="header">
     <div class="header-inner">
       <a href="index.html" class="logo-area">
-        <img src="/images/logo-okser.svg" alt="OKSER Logo" class="logo-img" />
-        <div class="logo-text">
-          <span class="logo-okser"><span class="ok">OK</span><span class="ser">SER</span></span>
-          <span class="logo-slogan">Votre confiance est en lieu sûr</span>
-        </div>
+        <img src="/images/logo-okser.jpeg" alt="OKSER Logo" class="logo-img" />
+        <!-- <div class="logo-text">
+          <!-- <span class="logo-okser"><span class="ok">OK</span><span class="ser">SER</span></span> -->
+          <!-- <span class="logo-slogan">Votre confiance est en lieu sûr</span> -->
+        </div> -->
       </a>
       <nav class="nav">${navItems}</nav>
     </div>
